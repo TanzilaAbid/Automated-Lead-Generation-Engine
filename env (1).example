@@ -1,0 +1,24 @@
+# --- RapidAPI: Google Maps Extractor (FlyByAPIs) ---
+# https://rapidapi.com/flybyapi1/api/google-maps-extractor2
+RAPIDAPI_KEY=your_rapidapi_key_here
+RAPIDAPI_HOST=google-maps-extractor2.p.rapidapi.com
+ 
+# --- Google Sheets ---
+# Create a service account in Google Cloud Console, enable the Sheets API,
+# download its JSON key, and share your target Sheet with the service
+# account's email address (Editor access).
+GOOGLE_SHEETS_CREDENTIALS_PATH=./credentials/service_account.json
+GOOGLE_SHEET_ID=your_google_sheet_id_here
+ 
+# --- AI provider (Groq) ---
+# Get a free key at https://console.groq.com
+GROQ_API_KEY=your_groq_api_key_here
+GROQ_MODEL=llama-3.3-70b-versatile
+ 
+# --- Pipeline behavior ---
+MIN_RATING_THRESHOLD=3.5
+MAX_LEADS_PER_RUN=20
+REQUEST_TIMEOUT_SECONDS=8
+SEARCH_COUNTRY_CODE=pk
+SEARCH_LANGUAGE_CODE=en
+ 
